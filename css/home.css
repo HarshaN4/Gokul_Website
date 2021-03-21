@@ -1,0 +1,135 @@
+
+#name {
+			font-size: 50px;
+			padding: 10px;
+			font-family: "sans-serif", "Helvetica Neue";
+  			font-stretch: expanded;
+			color: darkslategray;
+
+		}
+		
+.nav-item {
+			font-size: 25px;
+			font-family: "sans-serif", "Helvetica Neue";
+  			font-stretch: expanded;
+			
+		}
+		
+		
+#collapsibleNavbar {
+			padding-right: 10px;
+		}
+		
+.navbar-toggler{
+			width: 47px;
+			height: 34px;
+			background-color: gainsboro;
+			}
+
+.navbar-toggler .line{
+			float: left;
+			height: 2px;
+			background-color: black;
+			margin-bottom: 5px;
+			}
+
+.bodycontent {
+			padding-top: 100px;
+			height: auto;
+			width:auto;
+			background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url("../background.jpg");
+			background-size: 100% 100%;
+		}
+		
+		
+		
+#profile {
+			vertical-align: middle;
+		    width: 300px;
+		    height: 300px; 
+			margin-top: 150px; 
+			margin-left: 150px;
+			margin-bottom: 50px;
+			border-radius: 50%;
+			opacity: 1
+		}
+		
+
+
+.responsive {
+		  width: 50%;
+		  height: auto;
+		}
+		
+.links{
+	padding-top: 40px;
+	padding-bottom: 40px
+}
+
+.circle {
+		  width: 150px;
+		  height: 150px;
+		  margin-top: 40px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  vertical-align:middle;
+		  position: relative;
+		  font-size: 30px;
+		  color: #D5D8AC;
+		  text-align: center;
+		  background: #D5D8AC;
+		  border-radius: 50%;
+		  border: thin;
+	      border-color: black;
+		  border-width: 5px
+		}
+		
+.circle p {
+		  margin: 0;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  font-family: "sans-serif", "Helvetica Neue";
+		  color: dimgrey;
+		}
+		
+.type2 {
+			width: 150px;
+			height: 150px;
+			margin-top: 40px;
+			margin-left: auto;
+		    margin-right: auto;
+			overflow: hidden;
+			background: #D5D8AC;
+			border-radius: 50%;
+		}
+
+	
+.content{
+	background-color: aliceblue;
+	background: rgba(255,255,255, 0.5);
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 10px
+}
+
+#intro{
+	text-align: justify;
+	padding: 50px 50px 20px 20px;
+	font-size: 18px;
+	
+}
+
+#descrb{
+	text-align: justify;
+	padding: 0px 50px 20px 20px;
+	font-size: 18px
+}
+		
+		
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: dimgray;
+}

@@ -1,0 +1,72 @@
+<div class="row">
+			  <div class="column-4 circleBase type2">
+				<img src="logo.jpg" alt="gokul" style="width: 150px; height: 150px;border-radius: 50%">
+			  </div>
+			  <div class="column-4 circleBase type1">
+			    <h1 style="text-align: center; vertical-align: middle; line-height: 123px; font-size: 20px; padding: 10px;
+						   font-family: sans-serif, Helvetica Neue, Lucida Grande, Arial;">RESUME</h1>
+			  </div>
+
+			  <div class="column-4 circleBase type1">
+			    <h1 style="text-align: center; vertical-align: middle; line-height: 123px; font-size: 20px; padding: 10px;
+						   font-family: sans-serif, Helvetica Neue, Lucida Grande, Arial;">My Work</h1>
+			  </div>
+			</div>
+			 
+			<div class="row" style="padding-top: 20px; margin-left: 30px;">
+				 <p>about line 1.....</p>
+			</div>
+			<div class="row" style="margin-left: 30px;">
+				 <p>about line 2.....</p>
+			</div>
+			<div class="row" style="margin-left: 30px;">
+				 <p>about line 3.....</p>
+			</div>
+
+
+
+ <div class="row bodycontent">
+		 <div class="col-6 center">
+			<img src="kishalay.jpg" alt="Profile" id="profile" class="responsive">
+		 </div>
+		 <div class="col-6 center">
+			 <div class="row">
+				 <div class="col"
+			  <div class="circle type2">
+				<img src="logo.gif" alt="gokul" style="width: 130px; height: 150px;">
+			  </div>
+			 
+			  <div class="circle">
+			    <h1>Resume</h1>
+			  </div>
+
+			  <div class="circle">
+			    <h1>My Work</h1>
+			  </div>
+			 </div>
+			 
+			 <div class="row about">
+			 
+			 
+			 </div>
+		 </div>
+	 </div>
+
+
+
+
+
+<div class="container-fluid">
+		<div class="row bodycontent">
+			<div class="col">
+				<img src="kishalay.jpg" alt="Profile" id="profile" class="responsive">
+		 	</div>
+			
+			<div class="col">
+			
+			</div>
+		
+		</div>
+	  
+	</div>
+	

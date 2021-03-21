@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	background-color: #ffffff;
+	color: #555;
+	font-family: 'helvetica', 'Arial', 'sans-serif';
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+.container {
+	width: 100% !important;
+	margin: 0;
+}
+.row {
+	/*max-width: 1140px;*/
+	/*margin: 0, auto;*/
+}
+.header {
+
+}
+.logo {
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 50%;
+}	
+.logo img {
+	border-radius: 50%
+}
+.nav-1 {
+	background-color: #f8f9fa !important;
+	padding: 15px;
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 0px;
+	position: relative;
+}
+.main-nav li{
+	display: inline;
+	padding-left: 20px;
+	font-size: 20px;
+}
+.main-nav a {
+	color: inherit;
+}
+.main-nav a:hover {
+	/*color: blue;*/
+	text-decoration: underline;
+}
+
+.projects {
+	/*background-color: #660066;*/
+	padding-left: 50px
+}
+section {
+	padding: 80px 0px;
+}
+.box {
+	padding: 1%;
+	float: left;
+	
+}
+.box p {
+	font-size: 90%;
+	line-height: 145%;
+}
+.box img {
+		width: 100%;
+		height: 50px;
+	}
+.text-center {
+	text-align: center;
+}	
+.bg-gray {
+	background-color: #f6f6f6;
+}
+.margin-l-r-20 {
+	
+}
+.project-sub {
+	margin: 20px 10px 20px 10px;
+	background-color: #f6f6f6;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5%;
+}
+.project-sub a {
+		text-decoration: none;
+		color: #36454F;	
+	}	
+.project-sub a:hover { 
+  		text-decoration: none;
+}
+.project-sub a:hover h1 { 
+  		text-decoration: underline;
+}
+.projects {
+	 	/*background-image: #660066;*/
+}
+.projects .row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}  
+.project-card {
+	padding: 5%;
+	margin-top: 30px;
+	/*margin-bottom: 40px;*/
+	/*background-color: #f6f6f6;*/
+	border-radius: 5%;
+	
+}	
+.bg-gray2 {
+	background-color: #033dfc;
+	width: 60%;
+	height: 100%;
+	position: absolute;
+}
+.project-card img {
+		width: 100%;	
+	}
+.project-card .pc-text {
+		height: 100%;
+		padding-top: 2%;
+	}
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: dimgray;
+
+}
+
+footer .main-nav {
+	float: none;
+	list-style: none;
+	margin-top: 0px;
+	position: relative;
+}
+a 

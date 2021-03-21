@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Research</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+	  
+	.nav a{
+			 font-size: 1.4em !important;
+			}
+	.navbar {
+	  min-height: 120px;
+			}
+
+	.navbar-brand {
+	  padding: 0 15px;
+	  height: 120px;
+	  line-height: 120px;
+	}
+
+    .navbar-toggle {
+	  /* (80px - button height 34px) / 2 = 23px */
+	  margin-top: 43px;
+	  padding: 9px 10px !important;
+	  }
+	 
+	 @media (min-width: 768px) {
+	 .navbar-nav > li > a {
+		/* (80px - line-height of 27px) / 2 = 26.5px */
+		padding-top: 46.5px;
+		padding-bottom: 26.5px;
+		line-height: 27px;
+	  }
+	 }
+	 .navbar-form {
+		  margin-top: 43px;
+	  }
+	  
+	  #topics {
+		  margin-top: 20px;
+		  margin-left: 150px;
+		  margin-right: 150px;
+		  margin-bottom: 20px;
+	  }
+	  
+  </style>
+	
+	
+</head>
+<body>
+<!-- Nav Bar -->
+<nav class="navbar navbar-default ">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a href="#"><img src="logo.gif" width="220" height="120" alt=""/></a>
+		</div>
+		<div id="myNavbar">
+		<form class="navbar-form navbar-right" action="/action_page.php">
+		  <div class="input-group">
+			<input type="text" class="form-control" placeholder="Search" name="search">
+			<div class="input-group-btn">
+			  <button class="btn btn-default" type="submit">
+				<i class="glyphicon glyphicon-search"></i>
+			  </button>
+			</div>
+		  </div>
+        </form>
+		<ul class="nav navbar-nav navbar-right ">
+		  <li><a href="Home.html">Home</a></li>
+		  <li class="active"><a href="research.html">Research</a></li>
+		  <li><a href="#">Projects</a></li>
+		  <li><a href="#">Collaborators</a></li>
+		  <li><a href="#">Team</a></li>
+		  <li><a href="#">Lab Activies</a></li>
+		</ul>
+		</div>
+	  </div>
+</nav>
+	
+<!-- Different research topics -->
+	
+<div class="container-fluid text-center" id="topics">    
+  <h2>What We Do</h2><br>
+  <div class="row">
+    <div class="col-sm-4">
+	  <a href="ML.html">
+      <img src="ai.jpg" class="img-responsive" style="width:100%" alt="Image">
+	  </a>
+      <p>Machine Learning and AI </p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Optimization under Uncertainty</p>    
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Planning, Scheduling, Control</p>    
+    </div>
+  </div>
+	
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Hybrid Multi-objective Optimization</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Optimal Control</p>    
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Systems Biology</p>    
+    </div>
+  </div>
+</div>
+</body>
+</html>
